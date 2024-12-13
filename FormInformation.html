@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styleform.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Informacion</title>
+</head>
+<body>
+  <div class="container">
+    <div class="form-content">
+      <h1 id="title">FORMULARIO DE INFORMACION</h1>
+      <form ACTION="mailto:unaprueba" METHOD="POST"><br>
+        <div class="input-group" id="nameInput">
+          <div class="input-field">
+            <i class="fa-solid fa-user"></i>
+            <INPUT TYPE="text" placeholder="nombre" MAXLENGHT=25 SIZE= 25><BR>
+          </div> <br>
+          <div class="input-field">
+            <i class="fa-solid fa-user"></i>
+            <INPUT class="input" TYPE="text" placeholder="apellido" MAXLENGHT=25 SIZE= 25 ><BR>
+          </div> <br>
+          <div class="input-field">
+            <i class="fa-solid fa-phone"></i>
+            <INPUT TYPE="text" placeholder="telefono" MAXLENGHT=25 SIZE= 25><BR>
+          </div> <br>
+          <div class="input-field">
+            <i class="fa-solid fa-envelope"></i>
+            <INPUT TYPE="text" placeholder="correo" MAXLENGHT=25 SIZE= 25><BR>
+          </div> <br>
+          <h1 id="title">ESCRIBENOS</h1>
+        </div> <br>  
+        <div class="mb-3" id="Informacion" style="display: flex; flex-direction: column; align-items: flex-start;">
+          <i class="fa-solid fa-inbox"></i>
+          <textarea class="form-control" placeholder="informacion" MAXLENGHT=20 SIZE=20 id="exampleFormControlTextarea1" rows="10" cols="50"></textarea>
+        </div> <br>
+        <div class="btn-field">
+          <button id="signUp" type="button">Enviar</button>
+          <button id="signIn" type="button" class="disable"><A HREF="/index.html"> Regresa </A></button>
+        </div>   
+      </div>
+    </form> 
+  </div>
+</body>
+</html>
